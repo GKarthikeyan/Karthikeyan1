@@ -4,9 +4,10 @@ class encript
     public static void main(String ar[])
     {
         Scanner sc=new Scanner(System.in);
-        String str[]=sc.nextLine().split(" ");
-        char ch[]=str[0].toCharArray();
-       char ch1[]=str[1].toCharArray(); 
+        String str=sc.nextLine();
+        String str1=sc.nextLine(); 
+        char ch[]=str.toCharArray();
+        char ch1[]=str1.toCharArray(); 
       
      for(int i=0;i<ch.length;i++)
      {
